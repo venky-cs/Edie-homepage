@@ -100,7 +100,7 @@ nav ul li a{
     width: 80%;
     margin: 0 auto;
 }
-.services h3{
+.sub-title{
     width: 300px;
     line-height:54px;
     font-weight: 500;
@@ -116,6 +116,7 @@ nav ul li a{
     box-shadow: 0px 10px 30px rgba(51,51,51,0.1);
     border-radius: 24px;
     padding: 30px;
+    margin-bottom:80px;
 }
 .card .card-icon{
     width: 67px;
@@ -160,4 +161,33 @@ nav ul li a{
 .card-button:active{
     color: #ffffff;
     background-color: #2d9cdb;
+}
+
+/* design */
+.design-cards{
+    display:grid;
+    grid-template-rows:repeat(6,1fr);
+    grid-template-columns:repeat(6,1fr);
+    grid-gap: 30px;
+}
+.design-card{
+    border-radius: 12px;
+    grid-row:span 3;
+    grid-column:span 3;
+}
+.design-card img{
+    width: 100%;
+    border-radius: 12px;
+}
+.design-card:nth-child(odd){
+    margin-top: 100px;
+}
+.design-card p{
+    font-weight:300;
+    font-size: 14px;
+    color: #828282;
+}
+.design-card h4{
+    font-weight: 500;
+    font-size: 24px;
 }
