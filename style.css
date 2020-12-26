@@ -78,13 +78,13 @@ nav ul li a{
     font-size: 14px;
     color: #828282;
 }
-.search input{
+.search input, .footer input{
     background-color: #f2f2f2;
     border-radius: 12px;
     padding:8px;
     border: none;
 }
-.search button{
+.search button, .footer button{
     padding: 8px 15px;
     border-radius: 12px;
     background-color:#2D9CDB;
@@ -284,4 +284,30 @@ aside p{
 .detail p{
     font-weight: 500;
     font-size: 18px;
+}
+
+/* footer */
+.foot{
+    background-color: #100e1d;
+}
+.footer{
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    padding: 25px;
+}
+.list ul li{
+    list-style-type:none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.foot p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #a9a9a9;
+    text-align:center;
 }
