@@ -165,6 +165,10 @@ nav ul li a{
 }
 
 /* design */
+.design{
+    margin-bottom: 80px;
+    clear: right
+}
 .design-cards{
     display:grid;
     grid-template-rows:repeat(6,1fr);
@@ -191,4 +195,56 @@ nav ul li a{
 .design-card h4{
     font-weight: 500;
     font-size: 24px;
+}
+.design-button{
+    float: right;
+    padding: 8px 10px;
+    color: #2d9cdb;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* team */
+.team{
+    margin-top: 200px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.team-img img:first-child{
+    background-color: red;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.team-img img{
+     grid-column: span 1;
+     grid-row: span 1;
+     width: 100%;
+     margin: auto 0;
+     border-radius: 12px;
+}
+.team aside{
+    width: 30%;
+    margin: 0 auto 0 0;
+}
+
+aside h4{
+     font-weight: 500;
+     font-size: 18px;
+}
+aside h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 10px 0;
+}
+aside p{
+    font-size: 16px;
+    color: #4f4f4f;
 }
