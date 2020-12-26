@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +16,9 @@ header{
     margin: 0 auto;
     padding: 25px;
 }
-.title{
-    font-family: ;
+.title,.links h3{
+    font-family: 'Heebo',
+    sans-serif;
     font-size:36px;
     font-weight:800;
 }
@@ -32,7 +34,8 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     padding:0 30px;
-    font-family: ;
+    font-family: 'Poppins',
+    sans-serif;
     font-size:24px;
     font-weight: 500;
     line-height:36px
@@ -52,17 +55,22 @@ nav ul li a{
     border-radius: 12px;
 }
 .main .blue{
-    font-family:;
+   font-family: 'Poppins',
+   sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #2D9CDB;
 }
 .main h2{
+    font-family: 'Poppins',
+    sans-serif;
     font-size: 48px;
     font-weight: 500;
     line-height:60px;
 }
 .main > p:last-of-type{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: #4f4f4f;
@@ -72,10 +80,12 @@ nav ul li a{
     width: 40%;
     margin: 0 20%;
 }
-.search p{
+.search p,.footer p{
     margin: 0;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     color: #828282;
 }
 .search input, .footer input{
@@ -88,6 +98,8 @@ nav ul li a{
     padding: 8px 15px;
     border-radius: 12px;
     background-color:#2D9CDB;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #f2f2f2;
@@ -101,6 +113,8 @@ nav ul li a{
     margin: 0 auto;
 }
 .sub-title{
+    font-family: 'Poppins',
+    sans-serif;
     width: 300px;
     line-height:54px;
     font-weight: 500;
@@ -138,11 +152,15 @@ nav ul li a{
     background-color: #eb5757;
 }
 .card-title{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 700;
     font-size:24px;
     padding: 20px 0;
 }
 .card-detail{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #4f4f4f;
@@ -155,6 +173,8 @@ nav ul li a{
     border-radius: 12px;
     border: none;
     outline: none;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 16px;
     color:#828282;
@@ -188,11 +208,15 @@ nav ul li a{
     margin-top: 100px;
 }
 .design-card p{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight:300;
     font-size: 14px;
     color: #828282;
 }
 .design-card h4{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
@@ -200,6 +224,8 @@ nav ul li a{
     float: right;
     padding: 8px 10px;
     color: #2d9cdb;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
@@ -235,16 +261,23 @@ nav ul li a{
 }
 
 aside h4{
+    font-family: 'Poppins',
+    sans-serif;
      font-weight: 500;
      font-size: 18px;
 }
 aside h2{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 36px;
     line-height: 54px;
     padding: 10px 0;
 }
 aside p{
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
     font-size: 16px;
     color: #4f4f4f;
 }
@@ -256,6 +289,8 @@ aside p{
 .review h5{
     width: 70%;
     margin: 0 auto 0 0;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 36px;
     line-height: 54px;
@@ -279,9 +314,13 @@ aside p{
 }
 .detail h3{
     font-size: 24px;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
 }
 .detail p{
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
@@ -301,13 +340,22 @@ aside p{
 }
 .list ul li a{
     text-decoration: none;
+    font-family: 'Poppins',
+    sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: white;
 }
-.foot p{
+.foot p:last-child{
     font-size: 14px;
+    font-family: 'Montserrat',
+    sans-serif;
     font-weight: 600;
     color: #a9a9a9;
     text-align:center;
+}
+.links i{
+    width: 20px;
+    color: white;
+    padding: 25px 10px;
 }
