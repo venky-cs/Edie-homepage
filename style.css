@@ -11,6 +11,11 @@ body{
     overflow-x: hidden;
 }
 
+.wrapper{
+    width: 100% !important;
+    overflow:hidden !important;
+}
+
 header{
     width: 90%;
     margin: 0 auto;
@@ -57,7 +62,7 @@ a:hover {
 }
 
 #check {
-    display: none;
+    display: none !important;
 }
 
 /* main */
