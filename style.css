@@ -474,6 +474,13 @@ aside p{
     .card{
         width: 80%;
     }
+    .search {
+        width: 100%;
+    }
+
+    .search p {
+        margin: 10px;
+    }
     .search p{
         font-size: 10px;
     }
@@ -522,10 +529,6 @@ aside p{
     .detail p,
     .main .blue,.user{
         font-size: 12px;
-    }
-
-    .search p{
-        font-size: 8px;
     }
 
     .sub-title {

@@ -36,8 +36,7 @@
 
 ## Overview
 
-  <img src="./images/dc7Desktop.png" alt="Desktop View">
-  <img src="./images/dc7Mobile.png" alt="Mobile View">
+  <img src="./images/dc7Desktop.jpg" alt="Desktop View">
 
 
 ### Built With
