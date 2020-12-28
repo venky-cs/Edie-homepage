@@ -74,9 +74,7 @@ a:hover {
     margin: 0 20%;
 }
 .main img{
-    position: relative;
-    width: 320%;
-    right: 200px;
+    width: 100%;
     border-radius: 12px;
 }
 .main .blue{
@@ -263,6 +261,7 @@ a:hover {
     align-items:center;
 }
 .team-img{
+    width: 65%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -381,7 +380,7 @@ aside p{
 }
 .links i{
     width: 20px;
-    color: white;
+    color: white !important;
     padding: 25px 10px;
 }
 
@@ -451,11 +450,10 @@ aside p{
 }
 
 @media (max-width:1024px) {
-    .main img {
-        width: 200%;
-        right: 130px;
+    .wrapper{
+        width:95% !important;
+        margin: 0 auto;
     }
-
     .main p,
     .main h2 {
         width: 45%;
@@ -463,7 +461,17 @@ aside p{
     }
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+    }
+    .search p{
+        font-size: 10px;
+    }
+}
 
 @media (max-width:442px) {
     .container {
