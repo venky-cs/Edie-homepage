@@ -370,7 +370,7 @@ aside p{
     font-size: 18px;
     color: white;
 }
-.foot p:last-child{
+.user{
     font-size: 14px;
     font-family: 'Montserrat',
     sans-serif;
@@ -454,6 +454,12 @@ aside p{
         width:95% !important;
         margin: 0 auto;
     }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .review h5{
+        width:100%
+    }
     .main p,
     .main h2 {
         width: 45%;
@@ -478,6 +484,63 @@ aside p{
         width: 90%;
         margin: 0 auto;
     }
+    header{
+        width: 100%;
+    }
+    .main{
+        margin: 35px 0;
+    }
+    nav{
+        background:rgb(214, 100, 100) !important;
+    }
+    .title,
+    .main h2,.card-title,aside h2,.review h5
+    ,.detail h3{
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .design-card h4,.design-button,aside h4{
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .team aside,.review h5,.profile .detail,
+    .card,.team-img{
+        width: 100%;
+    }
+
+    .main p,.main h2{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .main p,
+    .card-detail,
+    .card-button,
+    .design-card p,
+    .detail p,
+    .main .blue,.user{
+        font-size: 12px;
+    }
+
+    .search p{
+        font-size: 8px;
+    }
+
+    .sub-title {
+        font-size: 24px;
+        line-height: 36px
+    }
+    .card,.design{
+        margin-bottom:50px
+    }
+    .design-card:nth-child(odd){
+        margin: 0;
+    }
+    .team{
+        margin: 100px 0;
+    }
 
     .cards,
     .design-cards,
@@ -485,6 +548,14 @@ aside p{
     .footer {
         display: flex;
         flex-direction: column;
-        margin: 25px;
+        justify-content:space-between;
+        align-items: flex-start;
+    }
+
+    .list ul li a{
+        margin-bottom:10px;
+    }
+    .links h3{
+        padding: 25px 0 4px 0;
     }
 }
